@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Vehicle Rent - Login</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap 5 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css"
+    integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"
+    integrity="sha512-sH8JPhKJUeA9PWk3eOcOl8U+lfZTgtBXD41q6cO/slwxGHCxKcW45K4oPCUhHG7NMB4mbKEddVmPuTXtpbCbFA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&family=Nunito:wght@400;500;600;700;900&family=Playfair+Display:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <!-- custom css -->
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+  <div class="row">
+    <div class="col-6 bg-login">
+    </div>
+    <div class="col-6">
+      <header>
+        <div class="container header-content">
+          <h1>Login</h1>
+          <form class="text-center">
+            <input class="user-auth" type="text" placeholder="Email">
+            <input class="user-auth" type="text" placeholder="Password">
+            <button class="btn btn-primary user-auth">Login</button>
+          </form>
+          <a href="/forgotPassword">Forgot password?</a>
+          <div class="row text-center">
+            <div class="col-4">
+              <hr>
+            </div>
+            <div class="col-4">
+              <p>or try another way</p>
+            </div>
+            <div class="col-4">
+              <hr>
+            </div>
+          </div>
+          <form class="text-center">
+            <button href="#" id="google-login" class="btn btn-outline-primary user-auth"><i
+                class="fa-brands fa-google"></i> Login with
+              Google</button>
+            <button href="/register" id="register" class="btn btn-secondary user-auth">Register</button>
+          </form>
+        </div>
+      </header>
+      <footer>
+        <div class="container">
+          <div class="row footer">
+            <div class="row">
+              <img class="logo" src="./assets/images/logo.png" alt="logo">
+            </div>
+            <div class="row">
+              <p>Plan and book your perfect trip with
+                expert advice, travel tips for vehicle
+                information from us</p>
+            </div>
+            <div class="row">
+              <span>©2020 Vehicle Rental Center. All rights reserved</span>
+            </div>
+          </div>
+          <div class="socials">
+            <i class="fa-brands fa-twitter fa-xl social-icons"></i>
+            <i class="fa-brands fa-facebook-f fa-xl social-icons"></i>
+            <i class="fa-brands fa-instagram fa-xl social-icons"></i>
+            <i class="fa-brands fa-linkedin-in fa-xl social-icons"></i>
+            <i class="fa-brands fa-youtube fa-xl social-icons"></i>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+</body>
+
+</html>
