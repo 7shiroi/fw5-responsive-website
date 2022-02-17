@@ -29,65 +29,84 @@
 </head>
 
 <body>
-  <div class="row">
-    <div class="col-6 bg-login">
-    </div>
-    <div class="col-6">
-      <header>
-        <div class="container header-content">
-          <h1>Login</h1>
-          <form class="text-center">
-            <input class="user-auth" type="text" placeholder="Email">
-            <input class="user-auth" type="text" placeholder="Password">
-            <button class="btn btn-primary user-auth">Login</button>
-          </form>
-          <a href="/forgotPassword">Forgot password?</a>
-          <div class="row text-center">
-            <div class="col-4">
-              <hr>
-            </div>
-            <div class="col-4">
-              <p>or try another way</p>
-            </div>
-            <div class="col-4">
-              <hr>
-            </div>
+  <header class="login-header">
+    <div class="darken-bg">
+      <div class="container h-100">
+        <div class="d-flex justify-content-between h-100">
+          <div class="intro">
+            <h1 class="pt-5 mt-5">Let's Explore<br>The World</h1>
+            <p class="mt-5">Don't have account?</p>
+            <button class="btn-dark mt-3">Sign Up</button>
           </div>
-          <form class="text-center">
-            <button href="#" id="google-login" class="btn btn-outline-primary user-auth"><i
-                class="fa-brands fa-google"></i> Login with
-              Google</button>
-            <a href="/register" id="register" class="btn btn-secondary user-auth">Register</a>
+          <div class="separation-line h-100 d-flex flex-column justify-content-center align-items-center">
+            <div class="white-dot"></div>
+            <div class="white-line"></div>
+            <div class="white-dot"></div>
+          </div>
+          <form>
+            <div class="d-flex flex-column h-100 justify-content-center login-info">
+              <input class="mb-4" type="email" placeholder="Email">
+              <input class="mb-3" type="password" placeholder="Password">
+              <a class="mb-5" href="Forgot Password">Forgot password?</a>
+              <button class="btn-primary mb-4">Login</button>
+              <button class="btn-login-google"><img class="google-login-icon" src="/assets/images/google-login-icon.png"
+                  alt="google-login-icon"> Login with Google</button>
+            </div>
           </form>
         </div>
-      </header>
-      <footer>
-        <div class="container">
-          <div class="row footer">
-            <div class="row">
-              <img class="logo" src="./assets/images/logo.png" alt="logo">
-            </div>
-            <div class="row">
-              <p>Plan and book your perfect trip with
-                expert advice, travel tips for vehicle
-                information from us</p>
-            </div>
-            <div class="row">
-              <span>©2020 Vehicle Rental Center. All rights reserved</span>
-            </div>
-          </div>
-          <div class="socials">
-            <i class="fa-brands fa-twitter fa-xl social-icons"></i>
-            <i class="fa-brands fa-facebook-f fa-xl social-icons"></i>
-            <i class="fa-brands fa-instagram fa-xl social-icons"></i>
-            <i class="fa-brands fa-linkedin-in fa-xl social-icons"></i>
-            <i class="fa-brands fa-youtube fa-xl social-icons"></i>
-          </div>
-        </div>
-      </footer>
+      </div>
     </div>
-  </div>
-
+  </header>
+  <footer class="footer-content">
+    <div class="container">
+      <div class="d-flex justify-content-between flex-wrap">
+        <div class="about">
+          <img class="logo" src="./assets/images/logo.png" alt="logo">
+          <p>Plan and book your perfect trip with
+            expert advice, travel tips for vehicle
+            information from us</p>
+          <span>©2020 Vehicle Rental Center. All rights reserved</span>
+        </div>
+        <div class="links">
+          <h5>Destination</h5>
+          <ul>
+            <li>Bali</li>
+            <li>Yogyakarta</li>
+            <li>Jakarta</li>
+            <li>Kalimantan</li>
+            <li>Malang</li>
+          </ul>
+        </div>
+        <div class="links">
+          <h5>Vehicle</h5>
+          <ul>
+            <li>Bikes</li>
+            <li>Cars</li>
+            <li>Motorbike</li>
+            <li>Return Times</li>
+            <li>FAQs</li>
+          </ul>
+        </div>
+        <div class="links">
+          <h5>Interests</h5>
+          <ul>
+            <li>Adventure Travel</li>
+            <li>Art and Culture</li>
+            <li>Wildlife and Nature</li>
+            <li>Family Holidays</li>
+            <li>Culinary Trips</li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center socials">
+        <i class="fa-brands fa-twitter fa-xl social-icons"></i>
+        <i class="fa-brands fa-facebook-f fa-xl social-icons"></i>
+        <i class="fa-brands fa-instagram fa-xl social-icons"></i>
+        <i class="fa-brands fa-linkedin-in fa-xl social-icons"></i>
+        <i class="fa-brands fa-youtube fa-xl social-icons"></i>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
