@@ -30,18 +30,23 @@
 
 <body>
   <div class="row">
-    <div class="col-6 bg-login">
+    <div class="col bg-login">
     </div>
     <div class="col-6">
       <header>
         <div class="container header-content">
-          <h1>Login</h1>
-          <form class="text-center">
-            <input class="user-auth" type="text" placeholder="Email">
-            <input class="user-auth" type="text" placeholder="Password">
-            <button class="btn btn-primary user-auth">Login</button>
-          </form>
-          <a href="/forgotPassword">Forgot password?</a>
+          <h1>Sign Up</h1>
+          <div class="row">
+            <form class="text-center">
+              <input class="user-auth" type="text" placeholder="Name">
+              <input class="user-auth" type="text" placeholder="Email">
+              <input class="user-auth" type="text" placeholder="Password">
+              <button class="btn btn-primary user-auth">Sign Up</button>
+            </form>
+          </div>
+          <div class="row">
+            <a href="/forgotPassword">Forgot password?</a>
+          </div>
           <div class="row text-center">
             <div class="col-4">
               <hr>
@@ -53,12 +58,14 @@
               <hr>
             </div>
           </div>
-          <form class="text-center">
-            <button href="#" id="google-login" class="btn btn-outline-primary user-auth"><i
-                class="fa-brands fa-google"></i> Login with
-              Google</button>
-            <a href="/register" id="register" class="btn btn-secondary user-auth">Register</a>
-          </form>
+          <div class="row">
+            <form class="text-center">
+              <button href="#" id="google-login" class="btn btn-outline-primary user-auth"><i
+                  class="fa-brands fa-google"></i> Sign up with
+                Google</button>
+              <a href="/login" id="login" class="btn btn-secondary user-auth">Login</a>
+            </form>
+          </div>
         </div>
       </header>
       <footer>

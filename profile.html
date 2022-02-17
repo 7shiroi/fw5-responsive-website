@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Vehicle Rent - Profile</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap 5 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css"
+    integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"
+    integrity="sha512-sH8JPhKJUeA9PWk3eOcOl8U+lfZTgtBXD41q6cO/slwxGHCxKcW45K4oPCUhHG7NMB4mbKEddVmPuTXtpbCbFA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500&family=Nunito:wght@400;500;600;700;900&family=Playfair+Display:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <!-- custom css -->
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="./assets/images/logo.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Vehicle Type</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+        <div>
+          <img class="email-icon" src="/assets/images/email-icon.png" alt="email-icon">
+          <img class="profile-icon" src="/assets/images/profile-samantha.png" alt="profile picture">
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="profile-bio">
+      <h2>Profile</h2>
+      <div class="d-flex flex-column align-items-center">
+        <div class="profile-picture row">
+          <img class="profile" src="/assets/images/profile-samantha.png" alt="profile picture">
+          <div class="profile-edit">
+            <img class="edit-icon-bg" src="/assets/images/edit-icon-bg.png" alt="edit-icon-bg">
+            <img class="edit-icon" src="/assets/images/edit-icon.png" alt="edit-icon">
+          </div>
+        </div>
+        <div class="text-center">
+          <h1>Samantha Doe</h1>
+          <p>samanthadoe@mail.com<br>
+            +62833467823<br>
+            Has been active since 2013
+          </p>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Male</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"
+              checked>
+            <label class="form-check-label" for="inlineRadio2">Female</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <form class="profile-info">
+        <h5>Contacts</h5>
+        <label for="email">Email Address :</label>
+        <input class="form-control" name="email" type="text" value="zulaikha17@gmail.com">
+        <label for="address">Address :</label>
+        <input class="form-control" name="address" type="text" value="Iskandar Street no. 67 Block A Near Bus Stop">
+        <label for="phone-number">Mobile Number :</label>
+        <input class="form-control" name="phone-number" type="text" value="(+62)813456782">
+        <div class="row">
+          <h5>Identity</h5>
+          <div class="d-flex justify-content-between">
+            <div class="flex-grow-1 mx-5 ms-0">
+              <label for="diplay-name">Display name :</label>
+              <input class="form-control" name="diplay-name" type="text" value="zulaikha">
+            </div>
+            <div class="flex-grow-1 mx-5 me-0">
+              <label for="date">DD/MM/YY :</label>
+              <input class="form-control" name="date" type="text" value="03/09/2003">
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between button-list">
+          <button class="btn btn-primary">Save Changes</button>
+          <button class="btn-outline-primary">Edit Password</button>
+          <button class="">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <footer class="footer-content">
+    <div class="container">
+      <div class="d-flex justify-content-between">
+        <div class="about">
+          <img class="logo" src="./assets/images/logo.png" alt="logo">
+          <p>Plan and book your perfect trip with
+            expert advice, travel tips for vehicle
+            information from us</p>
+          <span>©2020 Vehicle Rental Center. All rights reserved</span>
+        </div>
+        <div class="links">
+          <h5>Destination</h5>
+          <ul>
+            <li>Bali</li>
+            <li>Yogyakarta</li>
+            <li>Jakarta</li>
+            <li>Kalimantan</li>
+            <li>Malang</li>
+          </ul>
+        </div>
+        <div class="links">
+          <h5>Vehicle</h5>
+          <ul>
+            <li>Bikes</li>
+            <li>Cars</li>
+            <li>Motorbike</li>
+            <li>Return Times</li>
+            <li>FAQs</li>
+          </ul>
+        </div>
+        <div class="links">
+          <h5>Interests</h5>
+          <ul>
+            <li>Adventure Travel</li>
+            <li>Art and Culture</li>
+            <li>Wildlife and Nature</li>
+            <li>Family Holidays</li>
+            <li>Culinary Trips</li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center socials">
+        <i class="fa-brands fa-twitter fa-xl social-icons"></i>
+        <i class="fa-brands fa-facebook-f fa-xl social-icons"></i>
+        <i class="fa-brands fa-instagram fa-xl social-icons"></i>
+        <i class="fa-brands fa-linkedin-in fa-xl social-icons"></i>
+        <i class="fa-brands fa-youtube fa-xl social-icons"></i>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
