@@ -3,6 +3,11 @@
   --secondary: #00B4D8;
 }
 
+nav.navbar button{
+  width: 132px;
+  height: 44px;
+}
+
 header.login-header {
   background-image: url('/assets/images/bg-login.png');
   background-repeat: no-repeat;
@@ -100,6 +105,55 @@ header.login-header div.login-info button.btn-login-google{
 .google-login-icon {
   width: 33px;
   height: 33px;
+}
+
+main.main-content{
+  background-color: #F5F5F5;
+  padding-top: 80px;
+}
+
+main.main-content div.contents{
+  margin-bottom: 32px;
+}
+
+main.main-content div.contents div.content-info{
+  position: absolute;
+  background-color: white;
+  border-radius: 6px;
+  width: 130px;
+  height: 72px;
+  bottom: -36px;
+  left: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main.main-content div.contents div.image {
+  width: 260px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+main.main-content div.contents img.content-image {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%
+}
+
+main.main-content div.contents div.content-info p {
+  color: #848484;
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 0px;
+}
+
+main.main-content div.contents div.content-info p b{
+  color: #042521;
+  font-size: 17px;
+  font-weight: 600px;
 }
 
 header .header-content h1 {
@@ -283,16 +337,15 @@ header.home-header {
   background-image: url(/assets/images/bg-home-header.png);
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 80px;
+  height: 763px;
 }
 header.home-header .header-content {
   background-color: rgba(0, 0, 0, 0.3);
-  height: 763px;
   color: white;
 }
 header.home-header h1{
   padding-top: 64px;
-  padding-bottom: 74px;
+  margin-left: 0px;
   font-size: 64px;
   font-family: 'Playfair Display', serif;
 }
@@ -312,7 +365,7 @@ header.home-header .mode-light hr {
   height: 3px;
   color: black;
   background-color: black;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
 }
 
 header.home-header .header-content input.divide-1 {
