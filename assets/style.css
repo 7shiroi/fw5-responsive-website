@@ -834,6 +834,71 @@ main.main-content .delete-selected-button {
   font-weight: bold;
 }
 
+header.header-forgot-password {
+  height: 758px;
+  background-image: url('/assets/images/bg-forgot-password.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header.header-forgot-password .header-content {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+}
+
+header.header-forgot-password .header-content .back-link {
+  color: white;
+}
+
+header.header-forgot-password .header-content .back-link i {
+  color: white;
+  font-size: 32px;
+}
+
+header.header-forgot-password .header-content .main {
+  height: 100%;
+  color: white;
+}
+header.header-forgot-password .header-content .main h1 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 2.5rem;
+}
+
+header.header-forgot-password .header-content .main span {
+  font-size: 24px;
+  font-weight: 700px;
+}
+
+header.header-forgot-password .header-content .main a{
+  color: white;
+  font-size: 24px;
+  margin-left: 0px;
+  font-weight: 900;
+}
+header.header-forgot-password .header-content .main .form-forgot{
+  height: 80px;
+  width: 448px;
+  font-size: 24px;
+}
+header.header-forgot-password .header-content .main .form-forgot input {
+  background-color: rgba(255, 255, 255, 0.26);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+header.header-forgot-password .header-content .main .form-forgot input::placeholder {
+  color: white;
+}
+header.header-forgot-password .header-content .main .form-forgot input:focus{
+  outline: none;
+}
+
+header.header-forgot-password .header-content .main .form-forgot button {
+  font-weight: 900;
+}
+
 @media (max-width: 1000px) {
   .main-content .testimonial p {
     width: 100%;
