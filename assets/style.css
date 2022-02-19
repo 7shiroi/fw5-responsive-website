@@ -13,7 +13,7 @@ nav.navbar .navbar-brand img {
 }
 
 nav.navbar button{
-  width: 132px;
+  width: 12em;
   height: 44px;
 }
 
@@ -21,7 +21,7 @@ header.login-header {
   background-image: url('/assets/images/bg-login.png');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 758px;
+  height: 47.5em;
   color: #FFFFFF;
 }
 
@@ -48,7 +48,7 @@ header.login-header div.intro button {
   height: 5rem;
   font-weight: 900;
   font-size: 1.5em;
-  line-height: 32px;
+  line-height: 2em;
 }
 
 
@@ -77,13 +77,13 @@ header.login-header div.login-info input{
   padding-left: 40px;
   color: white;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 1.5em;
   line-height: 33px;
 }
 header.login-header div.login-info input::placeholder{
   color: white;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 1.5em;
   line-height: 33px;
 }
 
@@ -101,8 +101,8 @@ header.login-header div.login-info button {
   width: 446px;
   height: 80px;
   font-weight: 900;
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 1.5em;
+  line-height: 2em;
 }
 
 header.login-header div.login-info button.btn-login-google{
@@ -122,7 +122,7 @@ main.main-content{
 }
 
 main.main-content div.contents{
-  margin-bottom: 32px;
+  margin-bottom: 2em;
 }
 
 .new-arrival {
@@ -132,8 +132,8 @@ main.main-content div.contents{
 
 .new-arrival .view-more {
   color: #B8BECD;
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 1.25px;
+  line-height: 2em;
 }
 .new-arrival .view-more i{
   color: #4A4C53;
@@ -184,7 +184,7 @@ main.main-content div.contents img.content-image {
 main.main-content div.contents div.content-info p {
   color: #848484;
   font-size: 15px;
-  line-height: 24px;
+  line-height: 1.5em;
   margin-bottom: 0px;
 }
 
@@ -216,8 +216,8 @@ header .header-content button.user-auth {
   border-radius: 10px;
   margin-top: 23px;
   font-weight: 900;
-  margin-bottom: 24px;
-  font-size: 24px;
+  margin-bottom: 1.5em;
+  font-size: 1.5em;
 }
 #google-login {
   margin-top: 0;
@@ -229,8 +229,8 @@ header .header-content a.user-auth {
   border-radius: 10px;
   margin-top: 23px;
   font-weight: 900;
-  margin-bottom: 24px;
-  font-size: 24px;
+  margin-bottom: 1.5em;
+  font-size: 1.5em;
 }
 #register {
   vertical-align: middle;
@@ -242,18 +242,17 @@ header .header-content a.user-auth {
   margin-left: 0;
   margin-top: 0;
 }
-header .header-content a {
+header.home-header .header-content a {
   font-family: 'Mulish', serif;
-  font-size: 18px;
+  font-size: 1.25px;
   font-weight: 700;
   line-height: 28px;
   color: black;
-  margin-left: 100px;
   margin-bottom: 40px;
 }
-header .header-content p {
+header.home-header .header-content p {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5em;
   line-height: 33px;
   color: rgba(57, 57, 57, 0.5);
   margin-bottom: 53px;
@@ -271,8 +270,8 @@ img.logo {
   margin-top: 78px;
   border-top: 1px solid #C4C4C4;
   text-align: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 2em;
+  padding-bottom: 2em;
   color: #393939;
 }
 
@@ -282,7 +281,7 @@ img.logo {
 
 footer .footer p {
   width: 355px;
-  font-size: 18px;
+  font-size: 1.25px;
   line-height: 28px;
   color: #848484;
 }
@@ -307,7 +306,7 @@ footer.footer-content div.about {
 
 footer.footer-content div.about p {
   width: 391px;
-  font-size: 18px;
+  font-size: 1.25em;
   margin-top: 26px;
   margin-bottom: 52px;
 }
@@ -348,7 +347,7 @@ nav .navbar-brand {
 }
 
 .user-menu .btn {
-  width: 132px;
+  width: 12em;
 }
 
 .btn-primary {
@@ -402,37 +401,41 @@ header.home-header .mode-light {
 }
 
 header.home-header .mode-light hr {
-  width: 32px;
+  width: 2em;
   border: none;
   height: 3px;
   color: black;
   background-color: black;
-  margin-bottom: 24px;
+  margin-bottom: 1.5em;
+}
+
+header.home-header .header-content input {
+  font-weight: 700;
+  height: 52px;
+  background-color: rgba(255, 255, 255, .3);
+  border: none;
+  border-radius: 10px;
+  text-align: center;
 }
 
 header.home-header .header-content input.divide-1 {
-  font-weight: 700;
-  height: 52px;
-  width: 470px;
-  background-color: rgba(255, 255, 255, .3);
-  border: none;
-  border-radius: 10px;
-  text-align: center;
+  min-width: 470px;
+  flex-grow: 2;
   margin-bottom: 34px;
 }
 
-
 header.home-header .header-content input.divide-2 {
-  font-weight: 700;
-  height: 52px;
   width: 220px;
-  background-color: rgba(255, 255, 255, .3);
-  border: none;
-  border-radius: 10px;
-  text-align: center;
-  margin-right: 30px;
-  margin-bottom: 50px;
 }
+
+header.home-header .header-content input.divide-2#location {
+  margin-right: 10px !important; 
+}
+
+header.home-header .header-content input.divide-2#date {
+  margin-left: 10px !important;
+}
+
 header.home-header .header-content button{
   height: 52px;
   width: 180px;
@@ -466,7 +469,7 @@ header.home-header .header-content button{
 
 .main-content .testimonial p {
   font-family: 'Mulish', sans-serif;
-  font-size: 24px;
+  font-size: 1.5em;
   line-height: 36px;
   width: 450px;
 }
@@ -479,13 +482,13 @@ header.home-header .header-content button{
 }
 
 .main-content .testimonial span{
-  font-size: 18px;
+  font-size: 1.25px;
   line-height: 48px;
 }
 
 main.main-content .detail {
-  line-height: 24px;
-  font-size: 24px;
+  line-height: 1.5em;
+  font-size: 1.5em;
   font-weight: 300;
 }
 
@@ -495,9 +498,9 @@ main.main-content .detail p {
 
 main.main-content .detail h1 {
   font-family: 'Playfair Display', sans-serif;
-  font-size: 48px;
+  font-size: 2em;
   font-weight: 900;
-  line-height: 25px;
+  line-height: 1em;
   color: #042521;
 }
 main.main-content .detail h2 {
@@ -531,11 +534,11 @@ main.main-content .detail h3 {
 .status-gray {
   color: #B8BECD;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 2em;
 }
 
 .pay-confirm {
-  font-size: 24px;
+  font-size: 1.5em;
   line-height: 25px;
 }
 
@@ -550,7 +553,7 @@ main.main-content .detail h3 {
 }
 
 .reservation{
-  font-size: 24px;
+  font-size: 1.5em;
   line-height: 25px;
 }
 
@@ -559,9 +562,9 @@ main.main-content .detail h3 {
 }
 
 .reservation input, .reservation select{
-  font-size: 24px;
+  font-size: 1.5em;
   min-height: 80px;
-  line-height: 32px;
+  line-height: 2em;
   background-color: rgba(57, 57, 57, 0.2);
   border: none;
   border-radius: 10px;
@@ -574,7 +577,7 @@ main.main-content .detail h3 {
   display: flex;
   align-items: center;
   font-size: 36px;
-  line-height: 24px;
+  line-height: 1.5em;
   font-weight: bold;
   color: black;
 }
@@ -602,22 +605,23 @@ main.main-content .detail h3 {
 }
 
 .action-button-list button {
+  min-width: 180px;
   min-height: 90px;
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: bold;
   line-height: 25px;
   flex-grow: auto;
-  margin: 0 32px;
+  margin: 0 2em;
 }
 
 .action-button-list i {
   font-size: 36px;
 }
 .action-button-list button.portion-2{
-  flex:2
+  flex:2 1
 }
 .action-button-list button.portion-1{
-  flex:1
+  flex:1 1
 }
 
 main.main-content .detail img{
@@ -629,21 +633,21 @@ main.main-content .detail img{
 .code-info {
   font-family: 'Playfair Display', sans-serif;
   font-size: 36px;
-  line-height: 24px;
+  line-height: 1.5em;
   font-weight: 700px;
   color: #393939;
 }
 
 button.copy-code {
   min-height: 42px;
-  line-height: 24px;
+  line-height: 1.5em;
   border-radius: 10px;
   padding: 9px 12px;
 }
 
 .transaction-info {
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 1.5em;
+  line-height: 1.5em;
 }
 
 .transaction-info .qty, 
@@ -682,21 +686,21 @@ nav.navbar {
   font-family: 'Playfair Display', sans-serif;
   font-weight: bold;
   font-size: 48px;
-  line-height: 24px;
+  line-height: 1.5em;
   margin-bottom: 40px;
 }
 
 .profile-bio h2 {  
   font-weight: bold;
   font-size: 36px;
-  line-height: 24px;
+  line-height: 1.5em;
   margin-bottom: 40px;
 }
 
 .profile-bio p {
   font-weight: bold;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 1.5em;
+  line-height: 1.5em;
   color: #B8BECD;
 }
 
@@ -750,7 +754,7 @@ nav li.nav-item {
 form.profile-info label {
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 1.5em;
   line-height: 33px;
   color: #9F9F9F;
 }
@@ -762,14 +766,14 @@ form.profile-info input {
     
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 1.5em;
   line-height: 25px;
 }
 
 form.profile-info h5 {
   font-style: normal;
   font-weight: 900;
-  font-size: 24px;
+  font-size: 1.5em;
   line-height: 33px;
   color: #4F5665;
   margin-bottom: 35px;
@@ -786,7 +790,7 @@ form.profile-info div.button-list button {
   border-radius: 10px;
 
   font-weight: 900;
-  font-size: 24px;
+  font-size: 1.5em;
   line-height: 33px;
 }
 
@@ -798,7 +802,7 @@ form.profile-info div.button-list button {
 }
 
 main.main-content .history {
-  font-size: 24px;
+  font-size: 1.5em;
 }
 
 main.main-content .history .history-filter {
@@ -839,12 +843,12 @@ main.main-content .history .history-message {
 main.main-content .delete-selected-button {
   height: 90px;
   border-radius: 10px;
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
 header.header-forgot-password {
-  height: 758px;
+  height: 47.5em;
   background-image: url('/assets/images/bg-forgot-password.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -861,7 +865,7 @@ header.header-forgot-password .header-content .back-link {
 
 header.header-forgot-password .header-content .back-link i {
   color: white;
-  font-size: 32px;
+  font-size: 2em;
 }
 
 header.header-forgot-password .header-content .main {
@@ -871,24 +875,24 @@ header.header-forgot-password .header-content .main {
 header.header-forgot-password .header-content .main h1 {
   text-align: center;
   margin: 0;
-  margin-bottom: 2.5em;
+  margin-bottom: 1em;
 }
 
 header.header-forgot-password .header-content .main span {
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: 700px;
 }
 
 header.header-forgot-password .header-content .main a{
   color: white;
-  font-size: 24px;
+  font-size: 1.5em;
   margin-left: 0px;
   font-weight: 900;
 }
 header.header-forgot-password .header-content .main .form-forgot{
-  height: 80px;
-  width: 448px;
-  font-size: 24px;
+  height: 4em;
+  width: 28em;
+  font-size: 1.5em;
 }
 header.header-forgot-password .header-content .main .form-forgot input {
   background-color: rgba(255, 255, 255, 0.26);
@@ -988,6 +992,20 @@ div.break {
     height: 1.25em;
   }
 
+  header.header-forgot-password .header-content .back-link {
+    justify-content: center;
+  }
+
+  header.header-forgot-password .header-content .main .form-forgot {
+    width: auto;
+  }
+
+  header.home-header .header-content input.divide-1,
+  header.home-header .header-content input.divide-2 {
+    min-width: unset !important;
+    width: 100%;
+  }
+
   img {
     width: auto !important;
     object-fit: contain !important;
@@ -996,6 +1014,9 @@ div.break {
   nav.navbar {
     height: auto;
     margin: 60px 16px;  
+  }
+  nav.navbar button {
+    width: 8em;
   }
 
   footer.footer-content div.break {
@@ -1013,6 +1034,28 @@ div.break {
   }
 }
 
+@media (max-width: 1399px) {
+  main.main-content .detail .detail-image {
+    justify-content: center !important;
+    margin-bottom: 2em;
+  }
+}
+
+@media (max-width: 600px) {
+  main.main-content .detail .detail-image {
+    width: 280px;
+    height: 180px;
+    overflow: hidden;
+  }
+
+  main.main-content .photo-list .image-container {
+    width: 120px;
+    height: 90px;
+    overflow: hidden;
+  }
+  
+}
+
 @media (max-width: 490px) {
   footer.footer-content .abouts {
     flex-direction: column;
@@ -1020,6 +1063,22 @@ div.break {
     text-align: center;
   }
   footer.footer-content .abouts .links {
-    margin: 20px 0;
+    margin: 1.5em 0;
   }
+
+  main.main-content .popular, 
+  main.main-content .cars, 
+  main.main-content .motorbike, 
+  main.main-content .bike {
+    flex-direction: column;
+  }
+
+  .main-content .title h2 {
+    font-size: 1.5em;
+  }
+
+  .main-content .title a {
+    font-size: 1em;
+  }
+  
 }

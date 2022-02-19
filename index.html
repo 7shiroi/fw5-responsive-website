@@ -29,7 +29,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar p-0 d-flex align-items-center navbar-expand-lg navbar-light">
     <div class="container">
       <a class="navbar-brand" href="#"><img src="./assets/images/logo.png"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -42,7 +42,7 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Vehicle Type</a>
+            <a class="nav-link" href="/vehicle-type">Vehicle Type</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">History</a>
@@ -52,8 +52,8 @@
           </li>
         </ul>
         <div>
-          <button class="btn-outline-primary me-3">Login</button>
-          <button class="btn-primary">Register</button>
+          <button class="btn-outline-primary me-3" onclick="location.href='/login'">Login</button>
+          <button class="btn-primary" onclick="location.href='/register'">Register</button>
         </div>
       </div>
     </div>
@@ -67,10 +67,12 @@
           <h5>Vehicle Finder</h5>
           <hr>
           <form>
-            <div class="w-50">
+            <div class="col-12 col-lg-6 d-flex flex-column">
               <input class="divide-1" type="text" placeholder="Type the vehicle (ex. motorbike)">
-              <input class="divide-2" type="text" placeholder="Location">
-              <input class="divide-2" type="text" placeholder="Date">
+              <div class="d-flex justify-content-between mb-4">
+                <input id="location" class="divide-2" type="text" placeholder="Location">
+                <input id="date" class="divide-2" type="text" placeholder="Date">
+              </div>
               <button class="btn btn-primary">Search</button>
             </div>
           </form>
