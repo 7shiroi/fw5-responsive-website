@@ -3,6 +3,15 @@
   --secondary: #00B4D8;
 }
 
+nav.navbar {
+  height: 160px;
+}
+
+nav.navbar .navbar-brand img {
+  width: 78px;
+  height: 78px;
+}
+
 nav.navbar button{
   width: 132px;
   height: 44px;
@@ -23,22 +32,22 @@ header.login-header div.darken-bg {
 
 header.login-header h1 {
   font-family: 'Playfair Display', serif;
-  font-size: 64px;
+  font-size: 4em;
   font-weight: 700;
   line-height: 85px;
 }
 
 header.login-header p {
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: 100px;
   line-height: 33px;
 }
 
 header.login-header div.intro button {
   width: 390px;
-  height: 80px;
+  height: 5rem;
   font-weight: 900;
-  font-size: 24px;
+  font-size: 1.5em;
   line-height: 32px;
 }
 
@@ -81,7 +90,7 @@ header.login-header div.login-info input::placeholder{
 header.login-header div.login-info a {
   color: white;
   font-family: 'Mulish', sans-serif;
-  font-size: 18px;
+  font-size: 1.25em;
   font-weight: 700;
   line-height: 28px;
   text-decoration-line: underline;
@@ -103,8 +112,8 @@ header.login-header div.login-info button.btn-login-google{
 }
 
 .google-login-icon {
-  width: 33px;
-  height: 33px;
+  width: 2em;
+  height: 2em;
 }
 
 main.main-content{
@@ -862,7 +871,7 @@ header.header-forgot-password .header-content .main {
 header.header-forgot-password .header-content .main h1 {
   text-align: center;
   margin: 0;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.5em;
 }
 
 header.header-forgot-password .header-content .main span {
@@ -899,17 +908,118 @@ header.header-forgot-password .header-content .main .form-forgot button {
   font-weight: 900;
 }
 
+div.break {
+  flex-basis: 100%;
+  height: 0;
+  display: none;
+}
+
 @media (max-width: 1000px) {
   .main-content .testimonial p {
     width: 100%;
   }
 }
 
-@media (max-width: 1460px) {
+/* @media (max-width: 1460px) {
   footer.footer-content div.about {
     margin-right: 10px;
   }
   footer.footer-content div.about p {
     width: auto;
+  }
+} */
+
+@media (max-width: 991px) {
+  header.login-header h1 {
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-bottom: .5em !important;
+    font-size: 2.5em !important;
+    line-height: 1.5em !important;
+  }
+  header.login-header p {
+    margin-top: 1em !important;
+    font-size: 1em !important;
+  }
+
+  header.login-header .separation-line {
+    display: none !important;
+  }
+
+  header.login-header .auth-contents {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center !important;
+  }
+
+  header.login-header .auth-contents button {
+    width: 100% !important;
+    height: 2em !important;
+    font-size: 1em !important;
+  }
+
+  
+  header.login-header .auth-contents input {
+    width: 100% !important;
+    height: 2em !important;
+    font-size: 1em !important;
+  }
+
+  header.login-header .auth-contents input::placeholder{
+    font-size: 1em !important;
+  }
+
+  header.login-header .auth-contents .other-action-xl {
+    display: none;
+  }
+  header.login-header .auth-contents .other-action {
+    min-width: 239px;
+    display: block !important;
+    order: 3;
+  }
+  header.login-header .auth-contents a {
+    margin-bottom: 1em !important;
+    font-size: .75em !important;
+  }
+
+  .google-login-icon {
+    width: 1.25em;
+    height: 1.25em;
+  }
+
+  img {
+    width: auto !important;
+    object-fit: contain !important;
+  }
+
+  nav.navbar {
+    height: auto;
+    margin: 60px 16px;  
+  }
+
+  footer.footer-content div.break {
+    display: block;
+    margin: 20px 0px;
+  }
+
+  footer.footer-content .about {
+    width: 100%;
+    order: 2;
+    
+  }
+  footer.footer-content div.about p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 490px) {
+  footer.footer-content .abouts {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  footer.footer-content .abouts .links {
+    margin: 20px 0;
   }
 }
