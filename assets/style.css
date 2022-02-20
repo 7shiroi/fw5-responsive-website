@@ -175,11 +175,6 @@ main.main-content div.contents div.image {
   align-items: center;
   overflow: hidden
 }
-main.main-content div.contents img.content-image {
-  flex-shrink: 0;
-  min-width: 100%;
-  min-height: 100%
-}
 
 main.main-content div.contents div.content-info p {
   color: #848484;
@@ -1032,6 +1027,19 @@ div.break {
   footer.footer-content div.about p {
     width: 100%;
   }
+
+  .profile-info .identity {
+    flex-direction: column;
+  }
+
+  .profile-info .identity div {
+    margin: 0 !important;
+  }
+
+  .action-button-list button {
+    min-width: unset;
+    margin: 0 .5em
+  }
 }
 
 @media (max-width: 1399px) {
@@ -1042,6 +1050,15 @@ div.break {
 }
 
 @media (max-width: 600px) {
+  .action-button-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button-list button {
+    width: 100% !important;
+  }
+
   main.main-content .detail .detail-image {
     width: 280px;
     height: 180px;
