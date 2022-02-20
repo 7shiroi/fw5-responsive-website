@@ -713,7 +713,7 @@ nav.navbar {
   width: 50px;
   height: 50px;
   border-radius: 25px;
-  background-color: #FFCD61;
+  background-color: var(--secondary);
   bottom: 0;
   right: 0;
   display: flex;
@@ -1071,6 +1071,27 @@ div.break {
     overflow: hidden;
   }
   
+}
+
+@media (max-width: 767px) {
+  main.main-content .history {
+    font-size: 1em !important;
+  }
+
+  .delete-selected-button {
+    font-size: 1em !important;
+    height: 3em !important;
+  }
+
+  main.main-content .history .history-filter input[type=text] {
+    padding-left: 1.5em !important;
+    margin-right: 1em !important;
+    width: 90% !important;
+  }
+
+  main.main-content .history .history-filter select {
+    width: 60% !important;
+  }
 }
 
 @media (max-width: 490px) {
