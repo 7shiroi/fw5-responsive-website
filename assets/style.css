@@ -1092,6 +1092,14 @@ div.break {
   main.main-content .history .history-filter select {
     width: 60% !important;
   }
+
+  .reservation {
+    font-size: 1em !important;
+  }
+
+  .pay-confirm {
+    font-size: 1em !important;
+  }
 }
 
 @media (max-width: 490px) {

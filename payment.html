@@ -31,7 +31,7 @@
 <body>
   <nav class="navbar p-0 d-flex align-items-center navbar-expand-lg navbar-light">
     <div class="container">
-      <a class="navbar-brand" href="#"><img src="./assets/images/logo.png"></a>
+      <a class="navbar-brand" href="/"><img src="./assets/images/logo.png"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -52,8 +52,9 @@
           </li>
         </ul>
         <div>
-          <img class="email-icon" src="/assets/images/email-icon.png" alt="email-icon">
-          <img class="profile-icon" src="/assets/images/profile-samantha.png" alt="profile picture">
+          <a href="/history"><img class="email-icon" src="/assets/images/email-icon.png" alt="email-icon"></a>
+          <a href="/profile"><img class="profile-icon" src="/assets/images/profile-samantha.png"
+              alt="profile picture"></a>
         </div>
       </div>
     </div>
@@ -116,7 +117,7 @@
         </div>
       </div>
       <div class="pay-confirm w-100 my-5">
-        <button class="btn-primary">Finish payment in <span>59:30</span></button>
+        <button class="btn-primary" onclick="location.href='/history'">Finish payment in <span>59:30</span></button>
       </div>
     </div>
   </main>
