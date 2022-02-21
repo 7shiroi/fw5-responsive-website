@@ -1,6 +1,6 @@
 :root {
-  --primary: #03045E;
-  --secondary: #00B4D8;
+  --primary: #1C658C;
+  --secondary: #398AB9;
 }
 
 nav.navbar {
@@ -821,7 +821,7 @@ main.main-content .history .history-filter select{
 }
 
 main.main-content .history .history-title {
-  color: #C4C4C4;
+  color: #000000;
   font-weight: 600;
 }
 
@@ -1040,6 +1040,7 @@ div.break {
     min-width: unset;
     margin: 0 .5em
   }
+
 }
 
 @media (max-width: 1399px) {
@@ -1050,11 +1051,25 @@ div.break {
 }
 
 @media (max-width: 600px) {
-  .action-button-list {
-    flex-direction: column;
-    align-items: center;
+  .history-message {
+    line-height: 2em !important;
   }
 
+  .action-button-list {
+    flex-direction: column !important;
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+  }
+  .action-button-list button {
+    min-height: unset;
+    font-size: 1em;
+    line-height: 2em;
+    height: 3em;
+    width: 96% ;
+  }
+  .action-button-list i {
+    font-size: 1.5em;
+  }
   .button-list button {
     width: 100% !important;
   }
@@ -1071,6 +1086,21 @@ div.break {
     overflow: hidden;
   }
   
+  main.main-content .transaction-info {
+    font-size: 1em !important;
+  }
+
+  main.main-content .detail {
+    font-size: 1em !important;
+  }
+
+  main.main-content .detail .code-info {
+    font-size: 1.75em !important;
+  }
+
+  .profile-bio, .profile-info {
+    font-size: .75em !important;
+  }
 }
 
 @media (max-width: 767px) {
